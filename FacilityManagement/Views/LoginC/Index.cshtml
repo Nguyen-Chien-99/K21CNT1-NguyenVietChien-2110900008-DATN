@@ -1,0 +1,102 @@
+﻿@model FacilityManagement.Models.LoginC
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-3">
+        <ul>
+            @foreach (var modelState in ViewData.ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Light gray background */
+        font-family: 'Arial', sans-serif;
+    }
+
+    .login-box {
+        width: 400px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .login-title {
+        font-weight: 700;
+        font-size: 24px;
+        color: #052c93;
+        margin-bottom: 20px;
+    }
+
+    .custom-input {
+        border-radius: 5px;
+        margin-top: 10px;
+        height: 45px;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+        .custom-input:focus {
+            border-color: #052c93;
+            box-shadow: 0 0 5px rgba(5, 44, 147, 0.2);
+        }
+
+    .btn-primary {
+        width: 100%;
+        border-radius: 5px;
+        background-color: #052c93;
+        border: none;
+        padding: 12px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+        .btn-primary:hover {
+            background-color: #042673;
+        }
+
+    .alert {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+        .alert ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .alert li {
+            margin-bottom: 5px;
+        }
+</style>
+
+<div class="login-box">
+    <div class="login-title">Đăng nhập</div>
+    <form asp-action="Index" method="post">
+        <input asp-for="Email" type="email" class="custom-input form-control form-control-lg"
+               placeholder="Email" />
+
+        <input asp-for="Password" type="password" class="custom-input form-control form-control-lg"
+               placeholder="Số điện thoại" required />
+
+        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+    </form>
+</div>
