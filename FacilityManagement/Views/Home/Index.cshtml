@@ -1,94 +1,281 @@
 ﻿<style>
+
     /* Tiêu đề */
-    /* Tiêu đề chính và phụ (tiếng Việt) */
+
     h1 {
+
         font-size: 36px;
+
         font-weight: bold;
-        color: #eb272c; /* Màu chủ đạo: Đỏ */
+
+        color: #eb272c; /* Màu đỏ */
+
         text-align: center;
+
         margin-bottom: 30px;
-        text-transform: uppercase; /* In hoa tiêu đề */
+
+        text-transform: uppercase;
+
+        letter-spacing: 1px; /* Khoảng cách giữa các chữ */
+
     }
+
+
 
     h2 {
+
         font-size: 24px;
+
         font-weight: bold;
-        color: #4b8ac9; /* Màu chủ đạo: Xanh */
+
+        color: #4b8ac9; /* Màu xanh */
+
         margin-bottom: 20px;
+
+        text-transform: capitalize;
+
     }
+
+
 
     h3, h4, h5, h6 {
+
         font-size: 20px;
+
         font-weight: bold;
+
         color: #4b8ac9;
+
         margin-bottom: 15px;
+
     }
+
+
 
     /* Nội dung văn bản */
+
     p {
+
         font-size: 16px;
-        line-height: 1.6; /* Tăng khoảng cách dòng để dễ đọc hơn */
-        color: #333; /* Màu văn bản tối hơn để dễ đọc */
+
+        line-height: 1.6;
+
+        color: #333; /* Màu văn bản tối */
+
         margin-bottom: 20px;
+
+        text-align: justify; /* Căn chỉnh đều nội dung */
+
     }
 
-    #main img {
-        width: 100%; /* Chiều rộng bằng 100% của phần tử cha (main) */
-        height: auto; /* Tự động tính chiều cao theo tỷ lệ hình ảnh */
-        display: block; /* Hiển thị dưới dạng block để loại bỏ khoảng trắng xung quanh */
-        margin: 20px auto; /* Lề trên và dưới, canh giữa */
-        border: 2px solid #ddd; /* Viền nhẹ hơn */
-        border-radius: 8px; /* Bo tròn ít hơn */
-        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ hơn */
-    }
-    /* Hình ảnh (đáp ứng, có khung, bo tròn và đổ bóng) */
-    img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 20px auto;
-        border: 2px solid #ddd; /* Viền nhẹ hơn */
-        border-radius: 8px; /* Bo tròn ít hơn */
-        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ hơn */
-    }
 
-    /* Caption hình ảnh */
-    figcaption {
-        text-align: center;
-        font-size: 14px;
-        color: #777; /* Màu caption tối hơn */
-        margin-top: 5px;
-    }
 
-    /* Banner tiêu đề trang */
-    .page-title-bg {
-        background-color: #4b8ac9; /* Nền xanh */
-        padding: 60px 0; /* Tăng padding để banner lớn hơn */
-        color: #ffffff;
-        text-align: center;
-    }
+        p strong {
 
-        .page-title-bg .entry-title {
-            font-size: 48px;
             font-weight: bold;
-            margin: 0;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Đổ bóng chữ để nổi bật hơn */
+
+            color: #eb272c; /* Màu đỏ cho các văn bản quan trọng */
+
         }
 
-    /* Tùy chỉnh nội dung bên trong */
-    .entry-content p strong {
-        font-weight: bold;
-        color: #eb272c;
+
+
+    /* Chỉnh hình ảnh */
+
+    #main img {
+
+        width: 100%;
+
+        height: auto;
+
+        display: block;
+
+        margin: 20px auto;
+
+        border: 2px solid #ddd;
+
+        border-radius: 10px; /* Bo tròn góc nhiều hơn */
+
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng mềm */
+
     }
 
-    /* Responsive images */
+
+
     img {
+
         max-width: 100%;
+
         height: auto;
+
         display: block;
+
         margin: 20px auto;
+
+        border: 2px solid #ddd;
+
+        border-radius: 10px; /* Bo tròn góc nhiều hơn */
+
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng mềm */
+
     }
+
+
+
+    /* Caption hình ảnh */
+
+    figcaption {
+
+        text-align: center;
+
+        font-size: 14px;
+
+        color: #777;
+
+        margin-top: 5px;
+
+    }
+
+
+
+    /* Tiêu đề banner */
+
+    .page-title-bg {
+
+        background-color: #4b8ac9; /* Nền xanh */
+
+        padding: 60px 0;
+
+        color: #fff;
+
+        text-align: center;
+
+        border-bottom: 3px solid #eb272c; /* Viền đỏ dưới */
+
+    }
+
+
+
+        .page-title-bg .entry-title {
+
+            font-size: 48px;
+
+            font-weight: bold;
+
+            margin: 0;
+
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Đổ bóng chữ */
+
+            letter-spacing: 2px;
+
+        }
+
+
+
+    /* Bố cục bài viết */
+
+    .entry-content p {
+
+        margin-bottom: 25px; /* Tăng khoảng cách cho các đoạn văn */
+
+    }
+
+
+
+        .entry-content p strong {
+
+            font-weight: bold;
+
+            color: #eb272c;
+
+        }
+
+
+
+        /* Phần thông tin bên trong */
+
+        .entry-content p img {
+
+            width: 100%; /* Đảm bảo hình ảnh vừa với màn hình */
+
+            border-radius: 10px;
+
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Tăng độ mờ cho đổ bóng */
+
+        }
+
+
+
+    .entry-content div {
+
+        margin-bottom: 30px; /* Tăng khoảng cách giữa các phần */
+
+    }
+
+
+
+    /* Điều chỉnh cho các thẻ p */
+
+    .entry-content p {
+
+        font-size: 16px;
+
+        line-height: 1.7;
+
+        color: #555;
+
+        text-align: justify;
+
+    }
+
+
+
+    /* Điều chỉnh kích thước hình ảnh */
+
+    .entry-content img {
+
+        border-radius: 8px;
+
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+    }
+
+
+
+    /* Thiết kế cho các phần tử trong bài viết */
+
+    .entry-content p strong {
+
+        color: #eb272c;
+
+    }
+
+
+
+    /* Điều chỉnh các phần tử khi chúng nằm trong một div */
+
+    .entry-content > div {
+
+        margin-bottom: 30px; /* Tăng khoảng cách giữa các phần tử */
+
+    }
+
+
+
+    /* Các phần tử hình ảnh sẽ tự động co giãn */
+
+    .img-fluid {
+
+        max-width: 100%;
+
+        height: auto;
+
+    }
+
 </style>
+
+
+
 <main id="main" class="container">
     <header class="page-title-bg text-white text-center py-5">
         <h1 class="entry-title">Cơ sở vật chất <i class="fas fa-university"></i></h1>

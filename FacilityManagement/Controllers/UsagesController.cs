@@ -21,6 +21,13 @@ namespace FacilityManagement.Controllers
         // GET: Usages
         public async Task<IActionResult> Index()
         {
+            var email = HttpContext.Session.GetString("CustomerLogin") ?? "";
+            if (email == "")
+            {
+                return RedirectToAction("Index","Home");
+            }
+            var staff = await _context.Staff.Where(s => s.Email == email).FirstOrDefaultAsync();
+            ViewBag.Name = staff.StaffName??null;
             var facilityManagementContext = _context.Usages.Include(u => u.Room);
             return View(await facilityManagementContext.ToListAsync());
         }
@@ -47,27 +54,47 @@ namespace FacilityManagement.Controllers
         // GET: Usages/Create
         public IActionResult Create()
         {
+            // Lấy CustomerId từ session
             var customerId = HttpContext.Session.GetInt32("CustomerId");
 
-            // Check if CustomerId exists in session
+            // Kiểm tra nếu CustomerId không có trong session
             if (customerId == null)
             {
                 TempData["Error"] = "Bạn cần đăng nhập để sử dụng chức năng này.";
                 return RedirectToAction("Index", "LoginC");
             }
+
+            // Lấy tên khách hàng từ session
             var staffName = HttpContext.Session.GetString("CustomerLogin");
+
+            // Gán tên khách hàng vào ViewBag để hiển thị trong view
+            ViewBag.Name = staffName ?? "Khách hàng chưa đăng nhập"; // Cung cấp thông báo mặc định nếu staffName null
 
             // Tạo một đối tượng Usage mới và gán giá trị cho UsedBy
             var usage = new Usage
             {
-                UsedBy = staffName // Tự động điền tên nhân viên vào UsedBy
+                UsedBy = staffName // Tự động điền tên khách hàng vào UsedBy
             };
 
             // Tạo danh sách các phòng và gán vào ViewBag
-            ViewBag.RoomId = new SelectList(_context.Rooms, "RoomId", "RoomName");
+            // Nếu có giá trị RoomId (ví dụ như từ người dùng đã chọn trước), truyền vào để làm giá trị mặc định
+            var selectedRoomId = usage.RoomId ?? 0; // Thay thế 0 bằng RoomId mặc định nếu có
+                                                    // Lấy danh sách phòng và tạo SelectList với cả RoomName và RoomType
+            ViewBag.RoomId = new SelectList(_context.Rooms
+                                    .Select(r => new
+                                    {
+                                        r.RoomId,
+                                        DisplayText = r.RoomName + " - " + r.RoomType // Kết hợp RoomName và RoomType
+                                    }),
+                                    "RoomId",
+                                    "DisplayText",
+                                    selectedRoomId);
 
+
+            // Trả về view với đối tượng usage
             return View(usage);
         }
+
 
         // POST: Usages/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -76,15 +103,31 @@ namespace FacilityManagement.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UsageId,RoomId,UsedBy,UsageDate,Purpose")] Usage usage)
         {
+            // Gán giá trị UsedBy từ session
+            var staffName = HttpContext.Session.GetString("CustomerLogin");
+            if (!string.IsNullOrEmpty(staffName))
+            {
+                usage.UsedBy = staffName; // Gán giá trị cho UsedBy từ session
+            }
+
+            // Kiểm tra tính hợp lệ của mô hình
             if (ModelState.IsValid)
             {
+                // Thêm đối tượng Usage vào context và lưu vào cơ sở dữ liệu
                 _context.Add(usage);
                 await _context.SaveChangesAsync();
+
+                // Chuyển hướng về trang Index sau khi tạo mới thành công
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomId", usage.RoomId);
+
+            // Cập nhật ViewData để cung cấp danh sách phòng cho dropdown
+            ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomName", usage.RoomId);
+
+            // Trả về view với đối tượng Usage nếu có lỗi validation
             return View(usage);
         }
+
 
         // GET: Usages/Edit/5
         public async Task<IActionResult> Edit(int? id)

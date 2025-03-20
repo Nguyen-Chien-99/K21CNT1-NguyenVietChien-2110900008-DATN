@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kKUXkPskVH8+HMJiPGa96JEaWevHCYufk1F75FkrQt4=",
+  "Hash": "IKxhoB0fc3a08QBWgC5Qov38lsdmqUSoDrU6TAAk8Rc=",
   "Source": "FacilityManagement",
   "BasePath": "_content/FacilityManagement",
   "Mode": "Default",
@@ -1440,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\41297_may_chieu_panasonic_pt_lb423_a__3_.jpg",
+      "SourceId": "FacilityManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\",
+      "BasePath": "_content/FacilityManagement",
+      "RelativePath": "images/equipments/41297_may_chieu_panasonic_pt_lb423_a__3_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\equipments\\41297_may_chieu_panasonic_pt_lb423_a__3_.jpg"
     },
     {
       "Identity": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\php.png",

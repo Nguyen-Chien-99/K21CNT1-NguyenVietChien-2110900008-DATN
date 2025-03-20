@@ -73,8 +73,8 @@
     <p>
         <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Tạo Mới</a>
     </p>
-    <table class="table">
-        <thead>
+    <table class="table table-bordered table-hover shadow-sm bg-white">
+        <thead class="bg-primary text-white">
             <tr>
                 <th><i class="fas fa-user"></i> @Html.DisplayNameFor(model => model.UsedBy)</th>
                 <th><i class="fas fa-calendar-alt"></i> @Html.DisplayNameFor(model => model.UsageDate)</th>
