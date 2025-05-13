@@ -57,7 +57,7 @@
 
             <div class="form-group">
                 <label asp-for="MaintenanceDate" class="control-label"><i class="fas fa-calendar-alt"></i> Ngày Bảo Trì</label>
-                <input asp-for="MaintenanceDate" class="form-control" type="date" value="@DateTime.Today.ToString("yyyy-MM-dd")" disabled />
+                <input asp-for="MaintenanceDate" class="form-control" type="date" value="@DateTime.Today.ToString("yyyy-MM-dd")" />
                 <span asp-validation-for="MaintenanceDate" class="text-danger"></span>
             </div>
 

@@ -79,8 +79,8 @@
                 <td>@Html.DisplayFor(modelItem => item.Description)</td>
                 <td>@Html.DisplayFor(modelItem => item.Campus.CampusId)</td>
                 <td class="action-links">
-                    <a asp-action="Edit" asp-route-id="@item.BuildingId"><i class="fas fa-edit"></i> Chỉnh Sửa</a>
-                    <a asp-action="Details" asp-route-id="@item.BuildingId"><i class="fas fa-info-circle"></i> Chi Tiết</a>
+                    <a asp-action="Edit" asp-route-id="@item.BuildingId" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i> Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.BuildingId" class="btn btn-info btn-sm"><i class="fas fa-info-circle"></i> Chi Tiết</a>
                     <a asp-action="Delete" asp-route-id="@item.BuildingId" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Xóa</a>
                 </td>
             </tr>

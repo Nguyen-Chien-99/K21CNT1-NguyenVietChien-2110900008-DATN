@@ -74,6 +74,16 @@
             </div>
 
             <div class="form-group">
+                <label asp-for="Status" class="control-label"><i class="fas fa-toggle-on"></i> Trạng Thái</label>
+                <select asp-for="Status" class="form-control">
+                    <option value="Sẵn sàng">Sẵn sàng</option>
+                    <option value="Đang sửa chữa">Đang sửa chữa</option>
+                    <option value="Hỏng">Hỏng</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
                 <label asp-for="Description" class="control-label"><i class="fas fa-file-alt"></i> Mô Tả</label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>

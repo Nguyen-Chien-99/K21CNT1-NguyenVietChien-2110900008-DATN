@@ -16,4 +16,5 @@ public partial class Usage
     public string? Purpose { get; set; }
 
     public virtual Room? Room { get; set; }
+
 }

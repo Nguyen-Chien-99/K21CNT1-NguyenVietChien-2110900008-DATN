@@ -63,9 +63,24 @@
             </div>
 
             <div class="form-group">
+                <label><i class="fas fa-door-open"></i> Phòng</label>
+                <input type="text" id="roomDisplay" class="form-control" readonly />
+            </div>
+
+
+            <div class="form-group">
                 <label asp-for="Description" class="control-label"><i class="fas fa-file-alt"></i> Mô Tả</label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"><i class="fas fa-toggle-on"></i> Trạng Thái</label>
+                <select asp-for="Status" class="form-control">
+                    <option value="Hoàn thành">Hoàn thành</option>
+                    <option value="Chưa giải quyết">Chưa giải quyết</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
             </div>
 
             <div class="form-group">
@@ -85,3 +100,18 @@
     }
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 }
+<script>
+    const equipmentList = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.EquipmentList));
+
+    const equipmentSelect = document.getElementById("EquipmentId");
+    const roomDisplay = document.getElementById("roomDisplay");
+
+    function updateRoomDisplay() {
+        const selectedId = parseInt(equipmentSelect.value);
+        const selectedEquipment = equipmentList.find(e => e.EquipmentId === selectedId);
+        roomDisplay.value = selectedEquipment ? selectedEquipment.RoomName : "Không xác định";
+    }
+
+    equipmentSelect.addEventListener("change", updateRoomDisplay);
+    window.addEventListener("DOMContentLoaded", updateRoomDisplay);
+</script>

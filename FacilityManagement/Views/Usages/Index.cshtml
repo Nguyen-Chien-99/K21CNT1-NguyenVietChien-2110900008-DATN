@@ -54,6 +54,8 @@
             <th><i class="fas fa-calendar-alt"></i> Ngày Sử Dụng</th>
             <th><i class="fas fa-file-alt"></i> Mục Đích Sử Dụng</th>
             <th><i class="fas fa-door-open"></i> Loại Phòng</th>
+            <th><i class="fas fa-door-open"></i> Phòng</th>
+            <th><i class="fas fa-door-open"></i> Tòa nhà</th>
         </tr>
     </thead>
     <tbody>
@@ -64,6 +66,8 @@
                 <td>@Html.DisplayFor(modelItem => item.UsageDate)</td>
                 <td>@Html.DisplayFor(modelItem => item.Purpose)</td>
                 <td>@Html.DisplayFor(modelItem => item.Room.RoomType)</td>
+                <td>@Html.DisplayFor(modelItem => item.Room.RoomName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Room.Building.BuildingName)</td>
             </tr>
         }
     </tbody>

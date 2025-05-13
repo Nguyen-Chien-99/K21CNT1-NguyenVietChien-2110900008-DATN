@@ -45,27 +45,23 @@ namespace FacilityManagement.Controllers
         }
 
         // GET: Maintenances/Create
-        public IActionResult Create(int? staffId)
+        public IActionResult Create()
         {
-            if (staffId == null)
-            {
-                return NotFound();
-            }
-
-            // Lấy danh sách phòng của nhân viên theo staffId
-            var rooms = _context.Rooms
-                .Where(r => r.Staff.Any(s => s.StaffId == staffId))  // Lọc phòng theo nhân viên
-                .Include(r => r.Equipment) // Bao gồm thiết bị trong phòng
+            var equipments = _context.Equipment
+                .Include(e => e.Room) // Gắn với phòng
+                .Select(e => new
+                {
+                    EquipmentId = e.EquipmentId,
+                    DisplayName = e.EquipmentName + " - " + e.Room.RoomName
+                })
                 .ToList();
 
-            // Lấy danh sách thiết bị trong các phòng mà nhân viên quản lý
-            var equipments = rooms.SelectMany(r => r.Equipment).ToList();
-
-            // Chuyển thiết bị thành SelectList để hiển thị trong dropdown
-            ViewData["EquipmentId"] = new SelectList(equipments, "EquipmentId", "EquipmentName");
+            ViewData["EquipmentId"] = new SelectList(equipments, "EquipmentId", "DisplayName");
 
             return View();
         }
+
+
 
 
         // POST: Maintenances/Create
@@ -73,21 +69,28 @@ namespace FacilityManagement.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaintenanceId,EquipmentId,MaintenanceDate,Description,Status")] Maintenance maintenance)
+        public async Task<IActionResult> Create([Bind("MaintenanceId,EquipmentId,Description,Status")] Maintenance maintenance)
         {
             if (ModelState.IsValid)
             {
+                // Gán ngày hiện tại
+                maintenance.MaintenanceDate = DateOnly.FromDateTime(DateTime.Today);
+
+
+                // Cập nhật thiết bị
                 var equipment = await _context.Equipment.FindAsync(maintenance.EquipmentId);
                 if (equipment != null)
                 {
-                    equipment.Status = "Đang bảo trì"; // Cập nhật trạng thái thiết bị
-                    _context.Update(equipment); // Cập nhật thiết bị
+                    equipment.Status = "Đang bảo trì";
+                    _context.Update(equipment);
                 }
+
                 _context.Add(maintenance);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EquipmentId"] = new SelectList(_context.Equipment, "EquipmentId", "EquipmentId", maintenance.EquipmentId);
+
+            ViewData["EquipmentId"] = new SelectList(_context.Equipment, "EquipmentId", "EquipmentName", maintenance.EquipmentId);
             return View(maintenance);
         }
 

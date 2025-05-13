@@ -105,13 +105,13 @@
                         @if (Context.Session.GetString("CustomerLogin") != null)
                         {
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Usages" asp-action="Index">Lịch sử dụng phòng</a>
+                                <a class="nav-link" asp-controller="Usages" asp-action="Index">Lịch đăng ký sử dụng phòng</a>
                             </li>
+                            @*<li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Rooms" asp-action="Index" asp-route-staffId="@Context.Session.GetInt32("CustomerId")">Phòng </a>
+                        </li>*@
                             <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Rooms" asp-action="Index" asp-route-staffId="@Context.Session.GetInt32("CustomerId")">Phòng</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Maintenances" asp-action="Create" asp-route-staffId="@Context.Session.GetInt32("CustomerId")">Báo cáo bảo trì</a>
+                                <a class="nav-link" asp-area="" asp-controller="Maintenances" asp-action="Index" asp-route-staffId="@Context.Session.GetInt32("CustomerId")">Báo cáo bảo trì</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="@Url.Action("Logout", "LoginC")">Đăng xuất</a>

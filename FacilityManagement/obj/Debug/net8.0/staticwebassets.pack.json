@@ -297,12 +297,60 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\41297_may_chieu_panasonic_pt_lb423_a__3_.jpg",
-      "PackagePath": "staticwebassets\\images\\equipments\\41297_may_chieu_panasonic_pt_lb423_a__3_.jpg"
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\bàn máy tính.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\bàn máy tính.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\bảng thông minh.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\bảng thông minh.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\bộ bàn ghế.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\bộ bàn ghế.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\bục giảng.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\bục giảng.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\dụng cụ thí nghiệm hóa học.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\dụng cụ thí nghiệm hóa học.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\dụng cụ thí nghiệm sinh học.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\dụng cụ thí nghiệm sinh học.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\dụng cụ thí nghiệm vật lý.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\dụng cụ thí nghiệm vật lý.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\kính hiển vi.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\kính hiển vi.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\loa.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\loa.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\maychieu.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\maychieu.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\micro.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\micro.jpg"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\máy tính.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\máy tính.jpg"
     },
     {
       "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\php.png",
       "PackagePath": "staticwebassets\\images\\equipments\\php.png"
+    },
+    {
+      "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\equipments\\quạt trần.jpg",
+      "PackagePath": "staticwebassets\\images\\equipments\\quạt trần.jpg"
     },
     {
       "Id": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\img1.png",

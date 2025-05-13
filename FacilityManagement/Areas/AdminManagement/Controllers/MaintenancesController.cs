@@ -22,7 +22,10 @@ namespace FacilityManagement.Areas.AdminManagement.Controllers
         // GET: AdminManagement/Maintenances
         public async Task<IActionResult> Index()
         {
-            var facilityManagementContext = _context.Maintenances.Include(m => m.Equipment);
+            var facilityManagementContext = _context.Maintenances
+                .Include(m => m.Equipment)
+                .ThenInclude(e => e.Room);
+
             return View(await facilityManagementContext.ToListAsync());
         }
 
@@ -48,7 +51,17 @@ namespace FacilityManagement.Areas.AdminManagement.Controllers
         // GET: AdminManagement/Maintenances/Create
         public IActionResult Create()
         {
-            ViewData["EquipmentId"] = new SelectList(_context.Equipment, "EquipmentId", "EquipmentName");
+            var equipmentList = _context.Equipment
+        .Include(e => e.Room)
+        .Select(e => new {
+            e.EquipmentId,
+            e.EquipmentName,
+            RoomName = e.Room != null ? e.Room.RoomName : "Không xác định"
+        }).ToList();
+
+            ViewBag.EquipmentList = equipmentList;
+            ViewBag.EquipmentId = new SelectList(equipmentList, "EquipmentId", "EquipmentName");
+
             return View();
         }
 
@@ -72,21 +85,26 @@ namespace FacilityManagement.Areas.AdminManagement.Controllers
         // GET: AdminManagement/Maintenances/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var maintenance = await _context.Maintenances.FindAsync(id);
-            if (maintenance == null)
-            {
-                return NotFound();
-            }
+            var maintenance = await _context.Maintenances
+                .Include(m => m.Equipment)
+                .ThenInclude(e => e.Room)
+                .FirstOrDefaultAsync(m => m.MaintenanceId == id);
 
-            // Đặt danh sách các thiết bị vào ViewData
-            ViewData["EquipmentId"] = new SelectList(_context.Equipment, "EquipmentId", "EquipmentName", maintenance.EquipmentId);
+            if (maintenance == null) return NotFound();
 
-            // Trả về View với dữ liệu Maintenance
+            var equipmentList = _context.Equipment
+                .Include(e => e.Room)
+                .Select(e => new {
+                    e.EquipmentId,
+                    e.EquipmentName,
+                    RoomName = e.Room != null ? e.Room.RoomName : "Không xác định"
+                }).ToList();
+
+            ViewBag.EquipmentList = equipmentList;
+            ViewBag.EquipmentId = new SelectList(equipmentList, "EquipmentId", "EquipmentName", maintenance.EquipmentId);
+
             return View(maintenance);
         }
 

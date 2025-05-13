@@ -28,7 +28,7 @@ namespace FacilityManagement.Controllers
             }
             var staff = await _context.Staff.Where(s => s.Email == email).FirstOrDefaultAsync();
             ViewBag.Name = staff.StaffName??null;
-            var facilityManagementContext = _context.Usages.Include(u => u.Room);
+            var facilityManagementContext = _context.Usages.Include(u => u.Room).Include(b=>b.Room.Building);
             return View(await facilityManagementContext.ToListAsync());
         }
 
