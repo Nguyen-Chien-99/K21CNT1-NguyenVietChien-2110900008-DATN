@@ -20,11 +20,24 @@ namespace FacilityManagement.Areas.AdminManagement.Controllers
         }
 
         // GET: AdminManagement/Equipments
-        public async Task<IActionResult> Index()
+       
+        public async Task<IActionResult> Index(string? searchString)
         {
-            var facilityManagementContext = _context.Equipment.Include(e => e.Room);
-            return View(await facilityManagementContext.ToListAsync());
+            var query = _context.Equipment
+                .Include(u => u.Room)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(u =>
+                    u.EquipmentName.Contains(searchString) ||
+                    u.EquipmentType.Contains(searchString) ||
+                    u.Room.RoomName.Contains(searchString));
+            }
+
+            return View(await query.ToListAsync());
         }
+
 
         // GET: AdminManagement/Equipments/Details/5
         public async Task<IActionResult> Details(int? id)

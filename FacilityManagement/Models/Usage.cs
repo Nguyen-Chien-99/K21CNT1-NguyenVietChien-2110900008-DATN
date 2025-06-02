@@ -11,7 +11,7 @@ public partial class Usage
 
     public string? UsedBy { get; set; }
 
-    public DateOnly UsageDate { get; set; }
+    public DateTime UsageDate { get; set; }
 
     public string? Purpose { get; set; }
 

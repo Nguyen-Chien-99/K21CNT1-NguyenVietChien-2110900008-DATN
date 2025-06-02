@@ -20,11 +20,19 @@ namespace FacilityManagement.Areas.AdminManagement.Controllers
         }
 
         // GET: AdminManagement/Usages
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var facilityManagementContext = _context.Usages.Include(u => u.Room);
-            return View(await facilityManagementContext.ToListAsync());
+            var usages = _context.Usages.Include(u => u.Room).AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                usages = usages.Where(u =>
+                    u.Room.RoomName.Contains(searchString));
+            }
+
+            return View(await usages.ToListAsync());
         }
+
 
         // GET: AdminManagement/Usages/Details/5
         public async Task<IActionResult> Details(int? id)

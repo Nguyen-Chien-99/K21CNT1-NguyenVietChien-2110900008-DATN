@@ -73,7 +73,8 @@ namespace FacilityManagement.Controllers
             // Tạo một đối tượng Usage mới và gán giá trị cho UsedBy
             var usage = new Usage
             {
-                UsedBy = staffName // Tự động điền tên khách hàng vào UsedBy
+                UsedBy = staffName, // Tự động điền tên khách hàng vào UsedBy
+                UsageDate = DateTime.Today,
             };
 
             // Tạo danh sách các phòng và gán vào ViewBag
