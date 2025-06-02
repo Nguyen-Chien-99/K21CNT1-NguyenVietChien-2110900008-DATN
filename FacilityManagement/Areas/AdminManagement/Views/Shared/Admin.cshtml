@@ -47,7 +47,7 @@
         }
 
         .navbar {
-            background-color: #012d96;
+            background-color: #3366FF;
             color: #ffffff;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
@@ -58,27 +58,27 @@
             }
 
                 .navbar a:hover {
-                    color: #012d96;
+                    color: #3366FF;
                     background-color: #ffffff;
                 }
 
         .main-sidebar {
-            background-color: #012d96;
+            background-color: #3366FF;
             color: #ffffff;
             height: 100%;
         }
 
         .brand-link {
             background-color: #ffffff;
-            color: #012d96;
+            color: #3366FF;
             font-weight: bold;
             padding: 15px;
             text-align: center;
-            border-bottom: 1px solid #012d96;
+            border-bottom: 1px solid #3366FF;
         }
 
             .brand-link:hover {
-                background-color: #012d96;
+                background-color: #3366FF;
                 color: #ffffff;
             }
 
@@ -89,7 +89,7 @@
 
             .nav-sidebar .nav-link:hover {
                 background-color: #ffffff;
-                color: #012d96;
+                color: #3366FF;
             }
 
         .nav-sidebar .nav-icon {
@@ -103,35 +103,35 @@
         .user-panel {
             background-color: #ffffff;
             padding: 10px;
-            color: #012d96;
-            border-top: 1px solid #012d96;
+            color: #3366FF;
+            border-top: 1px solid #3366FF;
         }
 
             .user-panel a {
-                color: #012d96;
+                color: #3366FF;
                 text-decoration: none;
             }
 
                 .user-panel a:hover {
                     color: #ffffff;
-                    background-color: #012d96;
+                    background-color: #3366FF;
                 }
 
         .content-wrapper {
             background-color: #ffffff;
-            border-left: 4px solid #012d96;
+            border-left: 4px solid #3366FF;
             min-height: 100vh;
         }
 
             .content-wrapper .content-header {
-                background-color: #012d96;
+                background-color: #3366FF;
                 color: #ffffff;
                 padding: 15px;
                 border-bottom: 2px solid #ffffff;
             }
 
         button {
-            background-color: #012d96;
+            background-color: #3366FF;
             color: #ffffff;
             border: none;
             padding: 10px 20px;
@@ -141,11 +141,11 @@
 
             button:hover {
                 background-color: #ffffff;
-                color: #012d96;
+                color: #3366FF;
             }
 
         .control-sidebar {
-            background-color: #012d96;
+            background-color: #3366FF;
             color: #ffffff;
             padding: 10px;
             position: fixed;
@@ -161,14 +161,19 @@
             }
 
                 .control-sidebar a:hover {
-                    color: #012d96;
+                    color: #3366FF;
                     background-color: #ffffff;
                 }
 
         .sidebar {
-            overflow-y: auto;
-            max-height: 100vh;
+            overflow-y: scroll;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* Internet Explorer 10+ */
         }
+
+            .sidebar::-webkit-scrollbar {
+                display: none; /* Chrome, Safari */
+            }
     </style>
 </head>
 <body>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0KpIx2GEttBog/F02S7MynUbJBknBf10da4DnxtLfxU=",
+  "Hash": "tkNowIzWvuEnBIk+PlW69BfWXg5h5rJHI7GY1giDAr4=",
   "Source": "FacilityManagement",
   "BasePath": "_content/FacilityManagement",
   "Mode": "Default",
@@ -2012,12 +2012,12 @@
       "OriginalItemSpec": "wwwroot\\images\\img9.png"
     },
     {
-      "Identity": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\logo.png",
+      "Identity": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\logo.jpg",
       "SourceId": "FacilityManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\",
       "BasePath": "_content/FacilityManagement",
-      "RelativePath": "images/logo.png",
+      "RelativePath": "images/logo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2028,7 +2028,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
     },
     {
       "Identity": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\wwwroot\\images\\logo2.png",

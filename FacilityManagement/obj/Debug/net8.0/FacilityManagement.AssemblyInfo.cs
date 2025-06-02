@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FacilityManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5b8361fae66849c68a4ec519db058112082344d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60b0aba79275f790d0f7f3cd0dbdef0e53cf2fbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FacilityManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FacilityManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

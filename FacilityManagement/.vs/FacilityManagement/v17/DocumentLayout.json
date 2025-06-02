@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\controllers\\usagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\controllers\\usagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -207,16 +223,8 @@
       "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:views\\equipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\controllers\\loginccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:controllers\\loginccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,10 +241,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|solutionrelative:areas\\adminmanagement\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C0B054-EAE6-492F-BE8A-85B27B69EFE5}|FacilityManagement.csproj|d:\\k21cnt1-nguyenvietchien-2110900008-datn\\facilitymanagement\\areas\\adminmanagement\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -274,7 +278,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 265,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -287,58 +291,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwDsAAABvAAAAAAAAAA==",
+              "Title": "_Preloader.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\_Preloader.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T13:47:37.426Z",
+              "WhenOpened": "2025-06-02T14:53:20.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EquipmentsController.cs",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
-              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:49:03.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAcwEcAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T01:44:00.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwEwAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:51:16.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Staffs\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Staffs\\Index.cshtml",
@@ -346,25 +311,111 @@
               "RelativeToolTip": "Areas\\AdminManagement\\Views\\Staffs\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T02:31:10.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T02:31:10.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UsagesController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\UsagesController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\UsagesController.cs",
               "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\UsagesController.cs",
               "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\UsagesController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAywBwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwBwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T10:55:29.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T02:58:33.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_SideBar.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAowCQBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T02:58:33.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:53:27.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Usages\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwEwAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:51:16.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Maintenances\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwEcAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T01:44:00.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EquipmentsController.cs",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
+              "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\EquipmentsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:49:03.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
+              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Equipments\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwDsAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:47:37.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MaintenancesController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\MaintenancesController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\MaintenancesController.cs",
@@ -372,12 +423,11 @@
               "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\MaintenancesController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T01:46:44.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T01:46:44.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\DashboardController.cs",
@@ -385,12 +435,11 @@
               "RelativeToolTip": "Areas\\AdminManagement\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T11:29:47.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T11:29:47.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Equipments\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Equipments\\Create.cshtml",
@@ -398,12 +447,11 @@
               "RelativeToolTip": "Areas\\AdminManagement\\Views\\Equipments\\Create.cshtml",
               "ViewState": "AgIAAE4AAAAAAAAAAAAcwF4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T02:22:04.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T02:22:04.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Usage.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Usage.cs",
               "RelativeDocumentMoniker": "Models\\Usage.cs",
@@ -411,12 +459,11 @@
               "RelativeToolTip": "Models\\Usage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:24:40.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T11:24:40.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Usages\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Usages\\Create.cshtml",
@@ -424,12 +471,11 @@
               "RelativeToolTip": "Views\\Usages\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T02:43:38.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T02:43:38.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Usages\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Usages\\Index.cshtml",
@@ -437,12 +483,11 @@
               "RelativeToolTip": "Views\\Usages\\Index.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAowEUAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T04:34:15.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T04:34:15.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "UsagesController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\UsagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsagesController.cs",
@@ -450,12 +495,11 @@
               "RelativeToolTip": "Controllers\\UsagesController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAgwEsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T04:34:06.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T04:34:06.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Room.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Room.cs",
               "RelativeDocumentMoniker": "Models\\Room.cs",
@@ -467,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Maintenance.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Maintenance.cs",
               "RelativeDocumentMoniker": "Models\\Maintenance.cs",
@@ -479,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Maintenances\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Maintenances\\Create.cshtml",
@@ -491,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "MaintenancesController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\MaintenancesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MaintenancesController.cs",
@@ -503,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Rooms\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Index.cshtml",
@@ -515,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "RoomsController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\RoomsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
@@ -527,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Maintenances\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Maintenances\\Index.cshtml",
@@ -539,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -547,11 +591,12 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAF0AAAAAAAAAAAAYwHEAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T04:34:46.184Z"
+              "WhenOpened": "2025-02-27T04:34:46.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "EquipmentsController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\EquipmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EquipmentsController.cs",
@@ -563,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Maintenances\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Maintenances\\Delete.cshtml",
@@ -575,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -587,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Maintenances\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Maintenances\\Details.cshtml",
@@ -599,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -611,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Maintenances\\Create.cshtml",
@@ -623,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Staffs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Staffs\\Create.cshtml",
@@ -635,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Staffs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Staffs\\Index.cshtml",
@@ -647,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Maintenances\\Edit.cshtml",
@@ -659,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Buildings\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Buildings\\Create.cshtml",
@@ -671,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Staffs\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Staffs\\Create.cshtml",
@@ -683,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Rooms\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Create.cshtml",
@@ -695,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Campus\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Campus\\Create.cshtml",
@@ -707,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Usages\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Usages\\Create.cshtml",
@@ -719,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Details.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Maintenances\\Details.cshtml",
@@ -731,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Equipments\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Equipments\\Edit.cshtml",
@@ -743,7 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Rooms\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Rooms\\Create.cshtml",
@@ -755,7 +800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Maintenances\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Maintenances\\Delete.cshtml",
@@ -767,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "Equipment.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Equipment.cs",
               "RelativeDocumentMoniker": "Models\\Equipment.cs",
@@ -779,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Rooms\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Rooms\\Index.cshtml",
@@ -791,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Staffs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Staffs\\Edit.cshtml",
@@ -803,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "Staff.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Staff.cs",
               "RelativeDocumentMoniker": "Models\\Staff.cs",
@@ -815,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Buildings\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Buildings\\Index.cshtml",
@@ -827,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "StaffsController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\StaffsController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\StaffsController.cs",
@@ -839,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "FacilityManagementContext.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\FacilityManagementContext.cs",
               "RelativeDocumentMoniker": "Models\\FacilityManagementContext.cs",
@@ -851,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "StaffsController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\StaffsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StaffsController.cs",
@@ -863,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Staffs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Staffs\\Edit.cshtml",
@@ -875,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "Building.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Building.cs",
               "RelativeDocumentMoniker": "Models\\Building.cs",
@@ -887,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Equipments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Equipments\\Index.cshtml",
@@ -899,19 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T11:53:27.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\LoginC\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\LoginC\\Index.cshtml",
@@ -923,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "LoginCController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\LoginCController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginCController.cs",
@@ -935,19 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\Admin.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T02:58:33.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\Admin.cs",
@@ -959,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -971,7 +992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Equipments\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Equipments\\Create.cshtml",
@@ -983,7 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -995,19 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "_SideBar.cshtml",
-              "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "ToolTip": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeToolTip": "Areas\\AdminManagement\\Views\\Shared\\_SideBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T02:58:33.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Controllers\\BaseController.cs",
@@ -1019,7 +1028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Areas\\AdminManagement\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminManagement\\Views\\Dashboard\\Index.cshtml",
@@ -1031,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "LoginC.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Models\\LoginC.cs",
               "RelativeDocumentMoniker": "Models\\LoginC.cs",
@@ -1043,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -1055,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -1067,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\Views\\Staffs\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Staffs\\Delete.cshtml",
@@ -1079,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "FacilityManagement.csproj",
               "DocumentMoniker": "D:\\K21CNT1-NguyenVietChien-2110900008-DATN\\FacilityManagement\\FacilityManagement.csproj",
               "RelativeDocumentMoniker": "FacilityManagement.csproj",
